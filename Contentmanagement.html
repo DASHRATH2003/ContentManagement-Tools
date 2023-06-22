@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content_Management_Tool</title>
+  <link rel="stylesheet" href="Contentmanagement.css">
+  <script src="Contentmanagement.js" defer></script>
+</head>
+<body>
+  <h1>Content Management Tool</h1>
+  <form id="blogForm">
+    <label for="title"><b>Title:</b></label>
+    <input type="text" id="title" name="title">
+
+    <label for="content"><b>Content:</b></label>
+    <textarea id="content" name="content" rows="4"></textarea>
+
+    <label for="image"><b>Image:</b></label>
+    <input type="text" id="image" name="image">
+
+    <label for="video"><b>Video URL:</b></label>
+    <input type="text" id="video" name="video">
+
+    <input type="submit" value= "Create Blog">
+  </form>
+
+  <div id="detailsContainer"></div>
+</body>
+</html>
